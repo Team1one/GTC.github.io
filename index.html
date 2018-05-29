@@ -1,0 +1,89 @@
+<!DOCTYPE html><html lang="en" app="kopihao"><head><base href="." id="base_href"><script>(function () {
+      if (window.location.pathname === '/') return;
+      var paths = window.location.pathname.split('/');
+      if (paths.length > 1) {
+        paths.splice(-1, 1);
+        paths = paths.join("/");
+        document.getElementById('base_href').href = paths + "/";
+        console.log(911, "base_href", paths.toString());
+      }
+    })();</script><meta charset="utf-8"><title>GTC Bridal Gallery – Malaysia Premium Bridal Shop</title><link rel="icon" type="image/x-icon" href="favicon.png"><!-- //IE tweaks// --><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><!--//Prevent Cache//--><!--//Reference//--><!--https://www.mnot.net/cache_docs/#IMP-SERVER--><!--http://stackoverflow.com/questions/49547/how-to-control-web-page-caching-across-all-browsers--><!--https://yakovfain.com/2015/10/23/angular-typescript-systemjs-and-browser-cache/--><!-- /HTTP 1.1/ --><meta http-equiv="Pragma" content="no-cache"><!-- //HTTP 1.0// --><meta http-equiv="Expires" content="0"><meta http-equiv="Cache-Control" content="private, no-cache, no-store, must-revalidate, max-age=0, proxy-revalidate, s-maxage=0"><meta http-equiv="Content-Security-Policy" content="
+        default-src 'self' data: gap: ms-appdata: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline' *; 
+        connect-src 'self' data: 'unsafe-inline' *;
+        style-src 'self' data: 'unsafe-inline' *; 
+        img-src 'self' data: 'unsafe-inline' *; 
+        media-src *;  "><meta name="keywords" content="gtc, gtcbridal, bridal, wedding, pre-wedding, Wedding photography, best bridal house, bridal house, gown rental, top bridal house, wedding cinematography"><!-- //mobile tweaks// --><meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1,width=device-width"><meta name="format-detection" content="telephone=no"><meta name="msapplication-tap-highlight" content="no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><!-- jquery --><script type="text/javascript" src="assets/jquery/jquery.min.js"></script><script type="text/javascript" src="assets/jquery/jquery-ui.min.js"></script><link rel="stylesheet" type="text/css" href="assets/jquery/jquery-ui.css"/><script type="text/javascript" src="assets/vendors/popper.min.js"></script><script type="text/javascript" src="assets/vendors/moment.min.js"></script><!-- bootstrap --><link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css"><script type="text/javascript" src="assets/bootstrap/bootstrap.min.js"></script><script type="text/javascript" src="assets/bootstrap/bootstrap-datetimepicker.min.js"></script><link rel="stylesheet" href="assets/bootstrap/bootstrap-datetimepicker.min.css"><!-- select2 --><script type="text/javascript" src="assets/select2/select2.min.js"></script><link rel="stylesheet" href="assets/select2/select2.min.css"><!-- datatable --><link rel="stylesheet" type="text/css" href="assets/datatables/datatables.min.css"/><script type="text/javascript" src="assets/datatables/datatables.min.js"></script><script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA68saaW_XLL5hUzeMSSwcTO5MKp5HFaDE"></script><link rel="stylesheet" href="assets/lightbox/lightbox.css"><script src="assets/lightbox/lightbox-plus-jquery.min.js"></script><style>.sandbox-wp {
+      position: fixed;
+      width: 99.99vw;
+      height: 99.99vh;
+      z-index: -999;
+    }
+
+    .sandbox-wp.wp-default {
+      display: none;
+      background: white;
+    }
+
+    .sandbox-wp.wp-main {
+      display: none;
+      background: url('./assets/img/gtc/background-gtcbridals.png')no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .sandbox-wp.wp-white {
+      display: none;
+      background: white;
+    }
+
+    .sandbox-wp.wp-infinite {
+      display: none;
+      /* background: url(http://scarbroughstudios.com/img/codepen.svg); */
+      background: url('./assets/img/codepen.png');
+      background-size: 70em auto;
+      background-position: 0% 100%;
+      animation: 15s moveInfinite infinite linear;
+    }
+
+    @keyframes moveInfinite {
+      100% {
+        background-position: 100% 100%;
+      }
+    }
+
+    .sandbox-splash {
+      display: flex;
+      width: 100vw;
+      height: 100vh;
+      background: transparent;
+      align-items: center;
+      align-self: center;
+      text-align: center;
+      align-content: center;
+    }
+
+    .sandbox-splash>.content {
+      display: block;
+      text-align: center;
+      height: 50vh;
+      width: 100vw;
+      background: transparent;
+    }
+
+    .sandbox-splash>.content img {
+      max-height: 50vh;
+      height: 40vh;
+    }
+
+    .sandbox-splash>.content>.loading {
+      font-size: 1.50em;
+      color: firebrick;
+      font-weight: 500;
+    }</style><!-- project specific *.js --><!-- <script type="text/javascript" src="cordova.js"></script> --><!-- <script type="text/javascript" src="assets/vendors/app.cordova.js"></script> --><!-- <script type="application/javascript"> 
+    // do sth extra if you want
+  </script> --><link href="styles.11913eb97d909878624e.bundle.css" rel="stylesheet"/></head><body id="app-body" class="sandbox-dimension" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"><!-- fancy background --><div class="sandbox-wp wp-infinite"></div><!-- default background --><div class="sandbox-wp wp-default"></div><!-- main background --><div class="sandbox-wp wp-main"></div><!-- white background --><div class="sandbox-wp wp-white"></div><div class="sandbox-splash"><div class="content"><img src="./assets/img/gtc/gtc-icon.png"><p class="loading"><br><span>LOADING...</span></p></div></div><script>// $('.sandbox-wp.wp-infinite').hide();
+    // $('.sandbox-wp.wp-default').show();
+    $('.sandbox-wp.wp-infinite').show();
+    $('.sandbox-wp.wp-default').hide();
+    $('.sandbox-splash>.content>.loading').hide();
+    $('.sandbox-splash').show();
+    $('.sandbox-splash>.content>.loading').fadeIn(500);</script><app-root></app-root><script type="text/javascript" src="inline.00ea387ad2cf1049a379.bundle.js"></script><script type="text/javascript" src="polyfills.619c02630d5a85f1b961.bundle.js"></script><script type="text/javascript" src="scripts.be44f7c742b06df36f81.bundle.js"></script><script type="text/javascript" src="vendor.53b752202fa12658b209.bundle.js"></script><script type="text/javascript" src="main.b3dc1121030928546a0f.bundle.js"></script></body></html>
